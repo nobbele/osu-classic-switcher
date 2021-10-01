@@ -10,8 +10,8 @@ pub const COMMENT: &'static str = "# Added by osu!classic";
 
 fn get_target_hosts() -> HashMap<&'static str, Ipv4Addr> {
     let mut target_hosts = HashMap::new();
-    target_hosts.insert("osu.ppy.sh", Ipv4Addr::new(127, 0, 0, 1));
-    target_hosts.insert("a.ppy.sh", Ipv4Addr::new(127, 0, 0, 1));
+    target_hosts.insert("osu.ppy.sh", TARGET_IP);
+    target_hosts.insert("a.ppy.sh", TARGET_IP);
     target_hosts
 }
 

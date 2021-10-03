@@ -12,6 +12,7 @@ fn get_target_hosts() -> HashMap<&'static str, Ipv4Addr> {
     let mut target_hosts = HashMap::new();
     target_hosts.insert("osu.ppy.sh", TARGET_IP);
     target_hosts.insert("a.ppy.sh", TARGET_IP);
+	target_hosts.insert("s.ppy.sh", TARGET_IP);
     target_hosts
 }
 
